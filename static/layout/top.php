@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<link rel="stylesheet" type="text/css" href="http://localhost/test/static/css/index.css">
+<link rel="stylesheet" type="text/css" href="http://localhost/shop/static/css/index.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script type="text/javascript" src="http://localhost/test/static/js/index.js"></script>>
+<script type="text/javascript" src="http://localhost/shop/static/js/index.js"></script>>
 <body>

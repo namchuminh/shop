@@ -28,7 +28,7 @@ $(document).ready(function() {
                 form_data.append('cate_id', cate_id);
                 //sử dụng ajax post
                 $.ajax({
-                    url: 'http://localhost/test/lib/add.php', // dia chi gui du lieu den
+                    url: 'http://localhost/shop/lib/add.php', // dia chi gui du lieu den
                     dataType: 'text',
                     cache: false,
                     contentType: false,
@@ -56,7 +56,7 @@ $(document).ready(function() {
         var id = $(this).val();
         var c = confirm("Bạn có đồng ý xóa sản phẩm?");
         if (c == true) {
-            $.post("http://localhost/test/lib/delete.php", { id: id }, function(res) {
+            $.post("http://localhost/shop/lib/delete.php", { id: id }, function(res) {
                 if (res == 1) {
                     alert("Xóa thành công!");
                     location.reload();

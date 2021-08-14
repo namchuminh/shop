@@ -17,8 +17,8 @@
 	  	if ($price <= 0 || $quantity <= 0) {
 	  		$error = "Price hoặc quantity phải lớn hơn 0!";
 	  	}else{
-	  		if(move_uploaded_file($_FILES['image']['tmp_name'], 'E:\xampp\htdocs\test/image/'.$_FILES['image']['name'])){
-	  			$image_dir = "http://localhost/test/image/".$_FILES['image']['name'];
+	  		if(move_uploaded_file($_FILES['image']['tmp_name'], 'E:\xampp\htdocs\shop/image/'.$_FILES['image']['name'])){
+	  			$image_dir = "http://localhost/shop/image/".$_FILES['image']['name'];
 	  			$sqlAdd = "INSERT INTO products (product_name, price, quantity, image, description, cate_id)
 						VALUES ('".$name."', 
 						'".$price."', 
