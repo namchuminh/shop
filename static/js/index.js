@@ -115,11 +115,7 @@ $(document).ready(function() {
                         data: form_data,
                         type: 'post',
                         success: function(res) {
-                            if (res == 1) {
-                                location.reload();
-                            } else {
-                                alert(res)
-                            }
+                            location.reload();
                         }
                     });
                 }
@@ -146,11 +142,7 @@ $(document).ready(function() {
                 data: form_data,
                 type: 'post',
                 success: function(res) {
-                    if (res == 1) {
-                        location.reload();
-                    } else {
-                        alert(res)
-                    }
+                    location.reload();
                     $('#file').val('');
                 }
             });
